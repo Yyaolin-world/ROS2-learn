@@ -68,3 +68,4 @@ node->create_subscription<std_msgs::msg::String>(
 - `std::placeholders::_1` 是"留空"占位，调用时按位置传实参。
 - 成员函数地址写 `&类名::成员函数`，`&` 和类名都不能省。
 - 三种装法装完后，调用方式完全一致。
+111111111

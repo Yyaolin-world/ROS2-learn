@@ -39,9 +39,9 @@ int main()
         std::cout<<"download done!"<<path<<"has"<<result.length() << "notes,contains"<<result.substr(0,16)<<std::endl;
     };
 
-    download.start_download("https//localhost:8000","/novell1.txt",download_finish_callback);
-    download.start_download("https//localhost:8000","/novell2.txt",download_finish_callback);
-    download.start_download("https//localhost:8000","/novell3.txt",download_finish_callback);
+    download.start_download("http://localhost:8000","/novell1.txt",download_finish_callback);
+    download.start_download("http://localhost:8000","/novell2.txt",download_finish_callback);
+    download.start_download("http://localhost:8000","/novell3.txt",download_finish_callback);
 
     std::this_thread::sleep_for(std::chrono::milliseconds(1000*110));
     return 0;
