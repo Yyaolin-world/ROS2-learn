@@ -69,3 +69,5 @@ node->create_subscription<std_msgs::msg::String>(
 - 成员函数地址写 `&类名::成员函数`，`&` 和类名都不能省。
 - 三种装法装完后，调用方式完全一致。
 111111111
+222222222
+dadadawda
